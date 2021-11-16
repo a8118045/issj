@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.28)  16 NOV 2021 14:10
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.28)  16 NOV 2021 14:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -94,50 +94,50 @@ File: l3backend-dvipdfmx.def 2021-03-18 L3 backend support: dvipdfmx
 ) (./issjpaper.aux)
 \openout1 = `issjpaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 28.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 28.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 28.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 28.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 28.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 28.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 28.
+(Font)              <10.95> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 28.
+(Font)              <8> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 28.
+(Font)              <6> on input line 27.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 30.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 30.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 77.
+(Font)              <9> on input line 76.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 77.
+(Font)              <5> on input line 76.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -153,7 +153,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: fig1.png Graphic file (type bmp)
 <fig1.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 163.
+(Font)              <7> on input line 162.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -176,10 +176,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 Here is how much of TeX's memory you used:
  1230 strings out of 479466
  18036 string characters out of 5873880
- 319314 words of memory out of 5000000
+ 320300 words of memory out of 5000000
  18945 multiletter control sequences out of 15000+600000
  416525 words of font info for 78 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 88i,11n,91p,311b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 88i,12n,91p,436b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on issjpaper.dvi (3 pages, 13116 bytes).
+Output written on issjpaper.dvi (3 pages, 13840 bytes).
