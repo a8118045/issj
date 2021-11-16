@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.28)  16 NOV 2021 14:31
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.28)  16 NOV 2021 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -158,7 +158,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 131.
+(Font)              <9> on input line 152.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -203,4 +203,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  88i,11n,91p,436b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on issjpaper.dvi (4 pages, 20000 bytes).
+Output written on issjpaper.dvi (4 pages, 22472 bytes).
