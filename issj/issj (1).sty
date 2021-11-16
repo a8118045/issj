@@ -1,0 +1,121 @@
+%=================================================================
+% 情報システム学会 研究発表大会 原稿用テンプレート(TeXスタイル)
+%     ISSJ実行委員会/プログラム委員会(ISSJ学会誌編集委員会)
+% issj2012.sty Ver. 0.50 2012-10-12 Tadashi Iijima (iijima@ae.keio.ac.jp)
+% issj2012.sty Ver. 0.60 2012-10-15 Tadashi Iijima (iijima@ae.keio.ac.jp)
+% issj2012.sty Ver. 0.70 2012-10-19 Tadashi Iijima (iijima@ae.keio.ac.jp)
+% issj2012.sty Ver. 0.80 2012-10-20 Tadashi Iijima (iijima@ae.keio.ac.jp)
+%=================================================================
+\usepackage[dvipdfmx]{graphicx}         % 図の挿入
+\usepackage{color}                      % 文字色
+\usepackage{fancyhdr}                   % ヘッダ，フッタ
+%=================================================================
+% A4 → 縦29.7cm×横21.0cm
+% 1inch = 2.54cm, 1pt (72.27pt = 1inch)
+%-----------------------------------------------------------------
+%%%% 上余白(上から2.0cm)と本文の高さ(上下余白2.0cm)
+\setlength{\topmargin}{2.0cm}           % 上余白(上から2.0cm)
+\addtolength{\topmargin}{-1.0in}        % 2cm-1inch=2-2.54cm=-0.54cm
+\addtolength{\topmargin}{-\headheight}  % 
+\addtolength{\topmargin}{-\headsep}     % 
+%-----------------------------------------------------------------
+%%%% 本文の高さ(上下余白2.0cm)
+\setlength{\textheight}{\paperheight}   % 本文の高さ(上下余白2.0cm)
+\addtolength{\textheight}{-4.00cm}      % A4縦-4cm=29.7cm-4cm=25.7cm
+%-----------------------------------------------------------------
+%%%% 左余白(左から2.0cm)
+\setlength{\oddsidemargin}{2.0cm}       % 左余白(左から2.0cm)
+\addtolength{\oddsidemargin}{-1.0in}    % 2cm-1inch=2-2.54cm=-0.54cm
+\setlength{\evensidemargin}{\oddsidemargin}
+%-----------------------------------------------------------------
+% 本文の幅(左右余白2.0cm)
+\setlength{\textwidth}{\paperwidth}     % 本文の幅(左右余白2.0cm)
+\addtolength{\textwidth}{-4.0cm}        % A4横-4cm=21.0cm-4cm=17.0cm
+%=================================================================
+\pagestyle{fancy}
+%-----------------------------------------------------------------
+\lhead{情報システム学会　第17回全国大会・研究発表大会}
+\chead{}
+\rhead{}
+\cfoot{-\thepage -}
+\rfoot{}
+\lfoot{}
+%-----------------------------------------------------------------
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+%%\setlength{\marginparwidth}{0pt}
+%=================================================================
+%%% \author 等の再定義
+\def\title#1{\gdef\@title{#1}}
+\def\author#1{\gdef\@author{#1}}
+\def\etitle#1{\gdef\@etitle{#1}}
+\def\eauthor#1{\gdef\@eauthor{#1}}
+\def\affiliation#1{\gdef\@affiliation{#1}}
+\def\eaffiliation#1{\gdef\@eaffiliation{#1}}
+
+\def\udag{$^{\dag}$}
+\def\uddag{$^{\ddag}$}
+%=================================================================
+\renewcommand\maketitle{
+\begin{center}
+  {\bfseries\LARGE \@title}\\\smallskip
+  {\bfseries\fontsize{14.4pt}{15pt}\selectfont \@etitle}\\\smallskip
+  \@author\\
+  \@eauthor\\
+  \@affiliation\\
+  \@eaffiliation
+\end{center}
+}
+%=================================================================
+\renewenvironment{abstract}{%
+\begin{minipage}{\textwidth}\small\parindent 1zw\noindent{\bfseries 要旨}\\\indent}{%
+\end{minipage}\smallskip}
+%=================================================================
+\renewcommand{\section}{%
+  \@startsection{section}% #1 見出し
+   {1}% #2 見出しのレベル
+   {\z@}% #3 横組みの場合，見出し左の空き(インデント量)
+   {.45\Cvs \@plus.5\Cdp \@minus.2\Cdp}% #4 見出し上の空き (少し広げた)
+%  {.15\Cvs \@plus.5\Cdp \@minus.2\Cdp}% #4 見出し上の空き
+   {.15\Cvs \@plus.3\Cdp}% #5 見出し下の空き (負の値なら見出し後の空き) 
+   {\reset@font\Large\bfseries}% #6 見出しの属性
+%  {\reset@font\large\bfseries}% #6 見出しの属性
+%  {\centering\reset@font\Large\bfseries}% 中央揃え
+%  {\raggedleft\reset@font\Large\bfseries}% 右揃え
+}%
+\def\@seccntformat#1{\csname the#1\endcsname}
+\def\thesection{\arabic{section}.}
+%=================================================================
+\renewcommand{\subsection}{%
+  \@startsection{subsection}% #1 見出し
+   {2}% #2 見出しのレベル
+   {.15\z@}% #3 横組みの場合，見出し左の空き(インデント量)
+   {.15\Cvs \@plus.5\Cdp \@minus.2\Cdp}% #4 見出し上の空き
+   {.15\Cvs \@plus.3\Cdp}% #5 見出し下の空き (負の値なら見出し後の空き) 
+   {\reset@font\bfseries}% #6 見出しの属性
+%  {\centering\reset@font\Large\bfseries}% 中央揃え
+%  {\raggedleft\reset@font\Large\bfseries}% 右揃え
+}%
+%\def\thesubsection{$[$\arabic{subsection}$]$}
+\def\thesubsection{\arabic{section}.\arabic{subsection}.}
+%=================================================================
+\renewenvironment{thebibliography}[1]
+{\section*{\centering\refname\@mkboth{\refname}{\refname}}% centeringを追加
+   \list{\@biblabel{\@arabic\c@enumiv}}%
+        {\settowidth\labelwidth{\@biblabel{#1}}%
+         \leftmargin\labelwidth
+         \advance\leftmargin\labelsep
+         \setlength\itemsep{-0.5zh}% 行送りを変更
+         \@openbib@code
+         \usecounter{enumiv}%
+         \let\p@enumiv\@empty
+         \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+   \sloppy
+   \clubpenalty4000
+   \@clubpenalty\clubpenalty
+   \widowpenalty4000%
+   \sfcode`\.\@m}
+  {\def\@noitemerr
+    {\@latex@warning{Empty `thebibliography' environment}}%
+   \endlist}
+%=================================================================
