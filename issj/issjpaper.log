@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.28)  16 NOV 2021 14:28
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.28)  16 NOV 2021 14:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -95,6 +95,9 @@ File: l3backend-dvipdfmx.def 2021-03-18 L3 backend support: dvipdfmx
 
 LaTeX Warning: Label `tbl:font' multiply defined.
 
+
+LaTeX Warning: Label `tbl:font' multiply defined.
+
 )
 \openout1 = `issjpaper.aux'.
 
@@ -155,7 +158,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 122.
+(Font)              <9> on input line 131.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -194,10 +197,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  1230 strings out of 479466
  18036 string characters out of 5873880
- 322300 words of memory out of 5000000
+ 323300 words of memory out of 5000000
  18945 multiletter control sequences out of 15000+600000
  416525 words of font info for 78 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  88i,11n,91p,436b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on issjpaper.dvi (4 pages, 19464 bytes).
+Output written on issjpaper.dvi (4 pages, 20000 bytes).
