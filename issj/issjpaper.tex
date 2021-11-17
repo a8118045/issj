@@ -209,83 +209,80 @@ emotion value     &  real 型, -1～1\\\hline
 \subsection{結果}  %%%% 第4.1節
 %------------------------------------------------------------------------
 
-
-
-
-\begin{table}[htbp]
-  \begin{minipage}[c]{0.5\hsize}
-    \centering
-  \caption{吉高由里子}
-  \begin{tabular}{|l||c|r|c|}  \hline
-& 適合率 & 再現率 & F値 \\ \hline \hline
- 文字数が少ない & 0.25 & 0.09 & 0.13 \\ \hline
-  画像あり &0.38 & 0.27& 0.32\\ \hline
-   ネガティブ & 0.41 & 0.41 & 0.41 \\ \hline
+%------------------------------------------------------------------------
+%------------------------------------------------------------------------
+%------------------------------------------------------------------------
+%%%% 表：画像
+\begin{table}[htb]
+  \begin{center}
+    \caption{Imageの評価値}
+    \begin{tabular}{c|ccc} \hline \hline
+& 適合率 & 再現率 & 正解率 \\ \hline \hline
+吉高由里子 &0.38&0.27&0.48 \\ \hline
+ベッキー &0.5&0.08&0.5\\ \hline
+松本人志 &0.67&0.1&0.62 \\ \hline
+有吉弘行 & 0.08&0.33&0.46 \\ \hline
     \end{tabular}
-    \label{tb:table1}
-  \end{minipage}
-  \begin{minipage}[c]{0.5\hsize}
-    \centering
-    \begin{tabular}{cc}
-      sin & cos \\ \hline\hline
-      love & hate \\
-      holy & meteo \\ \hline
+    \label{tab:tripcode_user}
+  \end{center}
+\end{table}
+
+
+%%%% 表：文字数
+\begin{table}[htb]
+  \begin{center}
+    \caption{Characterの評価値}
+    \begin{tabular}{c|ccc} \hline \hline
+& 適合率 & 再現率 & 正解率 \\ \hline \hline
+吉高由里子 &0.2&0.09&0.44 \\ \hline
+ベッキー &0.11&0.16&-0.08\\ \hline
+松本人志 &0.32&0.45&0.4\\ \hline
+有吉弘行 & 0.09&0.67&0.12 \\ \hline
     \end{tabular}
-    \caption{fuga}
-    \label{tb:table2}
-  \end{minipage}
+    \label{tab:tripcode_user}
+  \end{center}
 \end{table}
 
 
-%%%% 表：吉高由里子
+%%%% 表：ネガティブ
 \begin{table}[htb]
-\centering
-  \caption{吉高由里子}
-  \begin{tabular}{|l||c|r|c|}  \hline
-& 適合率 & 再現率 & F値 \\ \hline \hline
- 文字数が少ない & 0.25 & 0.09 & 0.13 \\ \hline
-  画像あり &0.38 & 0.27& 0.32\\ \hline
-   ネガティブ & 0.41 & 0.41 & 0.41 \\ \hline
-  \end{tabular}
+  \begin{center}
+    \caption{Negativeの評価値}
+    \begin{tabular}{c|ccc} \hline \hline
+& 適合率 & 再現率 & 正解率 \\ \hline \hline
+吉高由里子 &0.41&0.41&0.48 \\ \hline
+ベッキー &0.46&0.44&0.46\\ \hline
+松本人志 &0.31&0.45&0.38\\ \hline
+有吉弘行 & 0.11&0.33&0.58 \\ \hline
+    \end{tabular}
+    \label{tab:tripcode_user}
+  \end{center}
+\end{table}
+
+%------------------------------------------------------------------------
+%------------------------------------------------------------------------
+
+
+
+
+%%%% 表：ネガティブ
+\begin{table}[htbp]\centering
+\caption{Negativeの評価値}\label{tbl:font}
+\begin{small}
+\begin{tabular}{|l||c|r|c|} \hline
+& 適合率 & 再現率 & 正解率 \\ \hline \hline
+吉高由里子 &0.41&0.41&0.48 \\ \hline
+ベッキー &0.46&0.44&0.46\\ \hline
+松本人志 &0.31&0.45&0.38\\ \hline
+有吉弘行 & 0.11&0.33&0.58 \\ \hline
+\end{tabular}
+\end{small}
 \end{table}
 
 
-%%%% 表：ベッキー
-\begin{table}[htb]
-\centering
-  \caption{ベッキー}
-  \begin{tabular}{|l||c|r|c|}  \hline
-& 適合率 & 再現率 & F値 \\ \hline \hline
- 文字数が少ない & 0.60 & 0.24 & 0.34 \\ \hline
-  画像あり &0.50&0.08&0.14 \\ \hline
-   ネガティブ &0.46&0.44&0.45 \\ \hline
-  \end{tabular}
-\end{table}
-
-%%%% 表：松本人志
-\begin{table}[htb]
-\centering
-  \caption{松本人志}
-  \begin{tabular}{|l||c|r|c|}  \hline
-& 適合率 & 再現率 & F値 \\ \hline \hline
- 文字数が少ない & 0.33&0.65&0.44 \\ \hline
-  画像あり & 0.67&0.10&0.17 \\ \hline
-   ネガティブ &0.31&0.45&0.37 \\ \hline
-  \end{tabular}
-\end{table}
 
 
-%%%% 表：有吉弘行
-\begin{table}[htb]
-\centering
-  \caption{有吉弘行}
-  \begin{tabular}{|l||c|r|c|}  \hline
-& 適合率 & 再現率 & F値 \\ \hline \hline
- 文字数が少ない &0.07&0.50&0.12 \\ \hline
-  画像あり &0.08&0.33&0.13 \\ \hline
-   ネガティブ &0.11&0.33&0.16 \\ \hline
-  \end{tabular}
-\end{table}
+
 %========================================================================
 \section{○○}  %%%% 第○節
 %========================================================================
