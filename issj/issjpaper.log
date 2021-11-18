@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.28)  18 NOV 2021 14:47
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.28)  18 NOV 2021 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -99,9 +99,6 @@ LaTeX Warning: Label `tbl:font' multiply defined.
 LaTeX Warning: Label `tbl:font' multiply defined.
 
 
-LaTeX Warning: Label `bib:HV1987' multiply defined.
-
-
 LaTeX Warning: Label `bib:SO2014' multiply defined.
 
 
@@ -153,10 +150,6 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 28.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 64.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 64.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -169,6 +162,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 ]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 83.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 83.
 File: fig1.png Graphic file (type bmp)
 <fig1.png>
 File: fig2.png Graphic file (type bmp)
@@ -209,16 +206,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
-[5]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
-
-[6] (./issjpaper.aux)
+[5] (./issjpaper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -226,10 +214,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  1223 strings out of 479466
  18008 string characters out of 5873880
- 323304 words of memory out of 5000000
+ 321304 words of memory out of 5000000
  18943 multiletter control sequences out of 15000+600000
  414772 words of font info for 71 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  88i,12n,91p,436b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on issjpaper.dvi (6 pages, 27188 bytes).
+Output written on issjpaper.dvi (5 pages, 25012 bytes).
