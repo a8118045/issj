@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.28)  18 NOV 2021 09:47
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.28)  18 NOV 2021 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -99,6 +99,12 @@ LaTeX Warning: Label `tbl:font' multiply defined.
 LaTeX Warning: Label `tbl:font' multiply defined.
 
 
+LaTeX Warning: Label `bib:HV1987' multiply defined.
+
+
+LaTeX Warning: Label `bib:SO2014' multiply defined.
+
+
 LaTeX Warning: Label `tab:tripcode_user' multiply defined.
 
 
@@ -148,9 +154,9 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 62.
+(Font)              <7> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 62.
+(Font)              <5> on input line 63.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -166,6 +172,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 ]
+File: fig1.png Graphic file (type bmp)
+<fig1.png>
+File: fig2.png Graphic file (type bmp)
+<fig2.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -175,11 +186,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.49998pt}.
 
 [2]
-File: fig1.png Graphic file (type bmp)
-<fig1.png>
-File: fig2.png Graphic file (type bmp)
-<fig2.png>
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.49998pt, for example:
@@ -212,12 +218,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1225 strings out of 479466
- 18035 string characters out of 5873880
+ 1223 strings out of 479466
+ 18008 string characters out of 5873880
  323304 words of memory out of 5000000
- 18945 multiletter control sequences out of 15000+600000
+ 18943 multiletter control sequences out of 15000+600000
  414772 words of font info for 71 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 88i,12n,91p,466b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 88i,12n,91p,502b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on issjpaper.dvi (5 pages, 26236 bytes).
+Output written on issjpaper.dvi (5 pages, 28084 bytes).
